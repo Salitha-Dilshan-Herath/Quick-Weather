@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E58FE7BB26BFA266006EC70B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FE7BA26BFA266006EC70B /* Launch Screen.storyboard */; };
 		E592815B26BCFE75003B5869 /* Quick_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592815A26BCFE75003B5869 /* Quick_WeatherApp.swift */; };
 		E592815D26BCFE75003B5869 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592815C26BCFE75003B5869 /* ContentView.swift */; };
 		E592815F26BCFE79003B5869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E592815E26BCFE79003B5869 /* Assets.xcassets */; };
 		E592816226BCFE79003B5869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E592816126BCFE79003B5869 /* Preview Assets.xcassets */; };
+		E592816A26BD534C003B5869 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592816926BD534B003B5869 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E58FE7BA26BFA266006EC70B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E592815726BCFE75003B5869 /* Quick Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E592815A26BCFE75003B5869 /* Quick_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_WeatherApp.swift; sourceTree = "<group>"; };
 		E592815C26BCFE75003B5869 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E592815E26BCFE79003B5869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E592816126BCFE79003B5869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E592816326BCFE79003B5869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E592816926BD534B003B5869 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E592815E26BCFE79003B5869 /* Assets.xcassets */,
 				E592816326BCFE79003B5869 /* Info.plist */,
 				E592816026BCFE79003B5869 /* Preview Content */,
+				E592816926BD534B003B5869 /* WeatherButton.swift */,
+				E58FE7BA26BFA266006EC70B /* Launch Screen.storyboard */,
 			);
 			path = "Quick Weather";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58FE7BB26BFA266006EC70B /* Launch Screen.storyboard in Resources */,
 				E592816226BCFE79003B5869 /* Preview Assets.xcassets in Resources */,
 				E592815F26BCFE79003B5869 /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				E592815D26BCFE75003B5869 /* ContentView.swift in Sources */,
 				E592815B26BCFE75003B5869 /* Quick_WeatherApp.swift in Sources */,
+				E592816A26BD534C003B5869 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quick Weather/Preview Content\"";
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Weather/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quick Weather/Preview Content\"";
-				DEVELOPMENT_TEAM = MUS9Q23L4C;
+				DEVELOPMENT_TEAM = 45WH9Q9K4T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Weather/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
